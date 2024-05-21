@@ -12,8 +12,12 @@ body {
 .container {
   width: 100%;
   width: 100%;
+
+  height: 70vh;
+  overflow-x: auto;
   display: flex;
   flex-wrap: wrap;
+
   gap: 4px;
   justify-content: center;
   align-items: center;
@@ -39,9 +43,9 @@ h1 {
   margin-bottom: 10px;
 }
 .btn {
+  margin: 5rem;
   color: white;
   padding: 10px 20px;
   background-color: blue;
   border-radius: 10px;
-  margin: 10px 0;
 }
